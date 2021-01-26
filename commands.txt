@@ -1,0 +1,38 @@
+$ git init
+$ git status
+$ git add ch1.txt
+$ git status
+$ git log
+$ git add ch1.txt
+$ git commit -m "commit 1"
+$ git status
+$ git log
+$ git status
+$ git add .
+$ git status
+$ git commit -m "commit 2"
+$ git log
+$ git diff ch2.txt
+$ git diff
+$ git checkout ch2.txt
+
+==================================================================
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/vivekin/practice.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vivekin/practice.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/vivekin/practice.git
+git branch -M main
+git push -u origin main
